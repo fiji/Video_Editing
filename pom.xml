@@ -24,6 +24,11 @@
 		</dependency>
 	</dependencies>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Video_Editing/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Video_Editing</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Video_Editing</developerConnection>
