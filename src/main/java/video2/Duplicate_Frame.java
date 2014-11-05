@@ -3,10 +3,8 @@ package video2;
 import ij.ImagePlus;
 import ij.ImageStack;
 import ij.gui.GenericDialog;
-
-import ij.process.ImageProcessor;
-
 import ij.plugin.filter.PlugInFilter;
+import ij.process.ImageProcessor;
 
 
 public class Duplicate_Frame implements PlugInFilter {

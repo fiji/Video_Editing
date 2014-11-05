@@ -1,22 +1,19 @@
 package video2;
 
-import java.awt.Panel;
-import java.awt.FlowLayout;
-import java.awt.Button;
-import java.awt.TextField;
+import ij.IJ;
+import ij.ImageListener;
+import ij.ImagePlus;
+import ij.gui.GenericDialog;
+import ij.io.DirectoryChooser;
+import ij.plugin.PlugIn;
 
+import java.awt.Button;
+import java.awt.FlowLayout;
+import java.awt.Panel;
+import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import java.io.File;
-
-import ij.IJ;
-import ij.ImagePlus;
-import ij.ImageStack;
-import ij.ImageListener;
-import ij.plugin.PlugIn;
-import ij.io.DirectoryChooser;
-import ij.gui.GenericDialog;
 
 
 public class New_Video implements PlugIn {

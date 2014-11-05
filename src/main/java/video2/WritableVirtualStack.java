@@ -1,21 +1,20 @@
 package video2;
 
-import java.util.List;
-import java.util.ArrayList;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
+import ij.process.ColorProcessor;
+import ij.process.ImageProcessor;
 
-import java.io.File;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-
-import ij.IJ;
-import ij.ImageStack;
-import ij.ImagePlus;
-import ij.process.ImageProcessor;
-import ij.process.ColorProcessor;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This class represents an array of disk-resident images.

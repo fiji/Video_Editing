@@ -1,18 +1,15 @@
 package video2;
 
-import java.awt.Rectangle;
-
 import ij.IJ;
 import ij.ImagePlus;
 import ij.ImageStack;
-
-import ij.gui.Roi;
 import ij.gui.GenericDialog;
-
+import ij.gui.Roi;
+import ij.plugin.filter.PlugInFilter;
 import ij.process.Blitter;
 import ij.process.ImageProcessor;
 
-import ij.plugin.filter.PlugInFilter;
+import java.awt.Rectangle;
 
 public class Move_Roi implements PlugInFilter {
 
