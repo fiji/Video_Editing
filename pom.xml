@@ -79,8 +79,8 @@
 		<url>https://github.com/fiji/Video_Editing/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Video_Editing/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/Video_Editing</url>
 	</ciManagement>
 
 	<properties>
