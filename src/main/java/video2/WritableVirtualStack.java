@@ -208,7 +208,7 @@ public class WritableVirtualStack extends ImageStack {
 
 	/**
 	 * Deletes the specified slice.
-	 * @param n The position of the slice to delete, were 1 <= n <= nslices.
+	 * @param n The position of the slice to delete, where 1 &lt;= n &lt;= nslices.
 	 */
 	public void deleteSlice(int n) {
 		if(n < 1 || n > nSlices)
@@ -233,7 +233,7 @@ public class WritableVirtualStack extends ImageStack {
 
 	/**
 	 * Returns the pixel array for the specified slice,
-	 * were 1 <= n <= nslices.
+	 * where 1 &lt;= n &lt;= nslices.
 	 */
 	public Object getPixels(int n) {
 		ImageProcessor ip = getProcessor(n);
@@ -246,7 +246,7 @@ public class WritableVirtualStack extends ImageStack {
 	/**
 	 * Assigns a pixel array to the specified slice.
 	 * @param pixels The pixel array to be assigned.
-	 * @param n      The slice index, were 1 <= n <= nslices.
+	 * @param n      The slice index, where 1 &lt;= n &lt;= nslices.
 	 */
 	public void setPixels(Object pixels, int n) {
 		ImageProcessor ip = getProcessor(n);
@@ -258,7 +258,7 @@ public class WritableVirtualStack extends ImageStack {
 
 	/**
 	 * Returns an ImageProcessor for the specified slice.
-	 * @param n The slice index, where 1 <= n <= nSlices.
+	 * @param n The slice index, where 1 &lt;= n &lt;= nSlices.
 	 * @return null if the stack is empty.
 	 */
 	public ImageProcessor getProcessor(int n) {
@@ -276,7 +276,7 @@ public class WritableVirtualStack extends ImageStack {
 	}
 
 	/**
-	 * Returns the label of the Nth image, where 1 <= n <= nSlices.
+	 * Returns the label of the Nth image, where 1 &lt;= n &lt;= nSlices.
 	 */
 	public String getSliceLabel(int n) {
 		return getFileName(n);
@@ -317,7 +317,7 @@ public class WritableVirtualStack extends ImageStack {
 
 	/**
 	 * Returns the file name of the specified slice,
-	 * were 1 <= n <= nslices.
+	 * where 1 &lt;= n &lt;= nslices.
 	 */
 	public String getFileName(int n) {
 		return indices.get(n - 1) + ".tif";
