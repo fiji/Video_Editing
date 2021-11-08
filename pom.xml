@@ -66,7 +66,7 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/Video_Editing</connection>
+		<connection>scm:git:https://github.com/fiji/Video_Editing</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Video_Editing</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Video_Editing</url>
